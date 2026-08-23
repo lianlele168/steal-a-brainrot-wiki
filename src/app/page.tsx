@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import { Calculator, Gift, Trophy, Shield, Zap, Sparkles, ArrowRight, Star } from 'lucide-react';
+import { Calculator, Gift, Trophy, Shield, Zap, Sparkles, ArrowRight, Package, Scale, DollarSign, Layers, Clock } from 'lucide-react';
 import StealCalculator from '@/components/StealCalculator';
+import SummonSimulator from '@/components/SummonSimulator';
+import TradeCalculator from '@/components/TradeCalculator';
 import CodeList from '@/components/CodeList';
 import CharacterTierList from '@/components/CharacterTierList';
 import config from '@/data/game.config.json';
@@ -18,17 +20,17 @@ export default function Home() {
         <div className="relative z-10 max-w-3xl space-y-6">
           <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-pink-950/80 border border-pink-700/60 text-pink-300 text-xs font-bold">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Updated for {config.game.currentVersion} • Season 2</span>
+            <span>Updated for {config.game.currentVersion} • Season 2 Suite</span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight leading-none">
             STEAL A BRAINROT <br />
-            <span className="gradient-title">WIKI & CALCULATOR</span>
+            <span className="gradient-title">WIKI & TOOL SUITE</span>
           </h1>
 
           <p className="text-sm sm:text-base text-purple-200 leading-relaxed font-medium">
             The #1 authoritative database for Roblox <strong className="text-pink-400 font-bold">Steal a Brainrot</strong>. 
-            Simulate your raid steal success odds, harvest max cash per second, unlock secret meme tiers, and claim verified 2026 codes.
+            Simulate your raid steal odds, unbox meme crates in real-time, verify community trade fairness, and claim active 2026 codes.
           </p>
 
           {/* Quick Metrics */}
@@ -48,20 +50,27 @@ export default function Home() {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-wrap gap-4 pt-4">
+          <div className="flex flex-wrap gap-3 pt-4">
             <Link
               href="#calculator"
-              className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 via-pink-600 to-pink-500 hover:from-purple-500 hover:to-pink-400 text-white font-black text-sm flex items-center gap-2 shadow-lg shadow-pink-600/30 transition-all hover:scale-105"
+              className="px-5 py-3 rounded-xl bg-gradient-to-r from-purple-600 via-pink-600 to-pink-500 hover:from-purple-500 hover:to-pink-400 text-white font-black text-xs flex items-center gap-2 shadow-lg shadow-pink-600/30 transition-all hover:scale-105"
             >
               <Calculator className="w-4 h-4" />
-              <span>Use Steal Calculator</span>
+              <span>Steal Calculator</span>
+            </Link>
+            <Link
+              href="/summon-simulator"
+              className="px-5 py-3 rounded-xl bg-purple-900/80 hover:bg-purple-800 text-cyan-300 border border-cyan-500/50 font-black text-xs flex items-center gap-2 transition-all"
+            >
+              <Package className="w-4 h-4 text-cyan-400" />
+              <span>Summon Sim</span>
             </Link>
             <Link
               href="/codes"
-              className="px-6 py-3 rounded-xl bg-purple-950 hover:bg-purple-900 text-purple-200 border border-purple-800 font-extrabold text-sm flex items-center gap-2 transition-all"
+              className="px-5 py-3 rounded-xl bg-purple-950 hover:bg-purple-900 text-purple-200 border border-purple-800 font-extrabold text-xs flex items-center gap-2 transition-all"
             >
-              <Gift className="w-4 h-4 text-cyan-400" />
-              <span>Redeem 2026 Codes</span>
+              <Gift className="w-4 h-4 text-emerald-400" />
+              <span>2026 Codes</span>
             </Link>
           </div>
 
@@ -81,6 +90,44 @@ export default function Home() {
         </div>
 
         <StealCalculator />
+      </section>
+
+      {/* New Tool #2: Summon Pack Opening Simulator */}
+      <section className="space-y-4">
+        <div className="flex items-center justify-between">
+          <div>
+            <h2 className="text-2xl font-extrabold text-white flex items-center gap-2">
+              <span>Meme Pack Summon Simulator</span>
+              <span className="text-xs px-2.5 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-800">Unboxing Sim</span>
+            </h2>
+            <p className="text-xs text-purple-400">Simulate opening Brainrot Crate drops and test God entity luck before buying in-game.</p>
+          </div>
+          <Link href="/summon-simulator" className="text-xs font-bold text-pink-400 hover:underline flex items-center gap-1">
+            <span>Full Summon Room</span>
+            <ArrowRight className="w-3 h-3" />
+          </Link>
+        </div>
+
+        <SummonSimulator />
+      </section>
+
+      {/* New Tool #3: Trade Fairness Calculator */}
+      <section className="space-y-4">
+        <div className="flex items-center justify-between">
+          <div>
+            <h2 className="text-2xl font-extrabold text-white flex items-center gap-2">
+              <span>Trade Fairness Checker</span>
+              <span className="text-xs px-2.5 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800">Anti-Scam</span>
+            </h2>
+            <p className="text-xs text-purple-400">Verify community trade values and ensure you get a fair deal.</p>
+          </div>
+          <Link href="/trade-calculator" className="text-xs font-bold text-pink-400 hover:underline flex items-center gap-1">
+            <span>Full Trade Checker</span>
+            <ArrowRight className="w-3 h-3" />
+          </Link>
+        </div>
+
+        <TradeCalculator />
       </section>
 
       {/* Redeem Codes Snippet */}
@@ -122,35 +169,45 @@ export default function Home() {
       </section>
 
       {/* Guide Link Cards */}
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <section className="grid grid-cols-1 md:grid-cols-4 gap-6">
         
-        <Link href="/steal-guide" className="glass-card p-6 rounded-2xl border border-purple-900/60 glass-card-hover group space-y-3">
+        <Link href="/raid-profit-calculator" className="glass-card p-6 rounded-2xl border border-purple-900/60 glass-card-hover group space-y-3">
+          <div className="w-10 h-10 rounded-xl bg-purple-950 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition-transform">
+            <DollarSign className="w-5 h-5" />
+          </div>
+          <h3 className="text-base font-bold text-white group-hover:text-emerald-400 transition-colors">Offline Vault ROI</h3>
+          <p className="text-xs text-purple-300 leading-relaxed">
+            Calculate storage cap limits to prevent passive income waste while offline.
+          </p>
+        </Link>
+
+        <Link href="/fusion-guide" className="glass-card p-6 rounded-2xl border border-purple-900/60 glass-card-hover group space-y-3">
           <div className="w-10 h-10 rounded-xl bg-purple-950 flex items-center justify-center text-pink-400 group-hover:scale-110 transition-transform">
+            <Layers className="w-5 h-5" />
+          </div>
+          <h3 className="text-base font-bold text-white group-hover:text-pink-400 transition-colors">Fusion Recipes</h3>
+          <p className="text-xs text-purple-300 leading-relaxed">
+            Combine duplicate memes to craft Mythic CaseOh and Secret entities.
+          </p>
+        </Link>
+
+        <Link href="/boss-schedule" className="glass-card p-6 rounded-2xl border border-purple-900/60 glass-card-hover group space-y-3">
+          <div className="w-10 h-10 rounded-xl bg-purple-950 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition-transform">
+            <Clock className="w-5 h-5" />
+          </div>
+          <h3 className="text-base font-bold text-white group-hover:text-cyan-400 transition-colors">Boss Raids Schedule</h3>
+          <p className="text-xs text-purple-300 leading-relaxed">
+            Timers and battle tactics for Titan Skibidi and Grimace Surge events.
+          </p>
+        </Link>
+
+        <Link href="/steal-guide" className="glass-card p-6 rounded-2xl border border-purple-900/60 glass-card-hover group space-y-3">
+          <div className="w-10 h-10 rounded-xl bg-purple-950 flex items-center justify-center text-amber-400 group-hover:scale-110 transition-transform">
             <Shield className="w-5 h-5" />
           </div>
-          <h3 className="text-lg font-bold text-white group-hover:text-pink-400 transition-colors">Steal & Shield Guide</h3>
+          <h3 className="text-base font-bold text-white group-hover:text-amber-400 transition-colors">Steal & Defense</h3>
           <p className="text-xs text-purple-300 leading-relaxed">
-            Learn base defense tactics, shield upgrading costs, stealth sneaking paths, and counter-raiding mechanics.
-          </p>
-        </Link>
-
-        <Link href="/rebirth-guide" className="glass-card p-6 rounded-2xl border border-purple-900/60 glass-card-hover group space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-purple-950 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition-transform">
-            <Zap className="w-5 h-5" />
-          </div>
-          <h3 className="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">Rebirth Multiplier Guide</h3>
-          <p className="text-xs text-purple-300 leading-relaxed">
-            Discover when to rebirth, income boost scaling up to 100x, and how to unlock Secret meme entities.
-          </p>
-        </Link>
-
-        <Link href="/mutation-values" className="glass-card p-6 rounded-2xl border border-purple-900/60 glass-card-hover group space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-purple-950 flex items-center justify-center text-amber-400 group-hover:scale-110 transition-transform">
-            <Trophy className="w-5 h-5" />
-          </div>
-          <h3 className="text-lg font-bold text-white group-hover:text-amber-400 transition-colors">Mutation & Trade Values</h3>
-          <p className="text-xs text-purple-300 leading-relaxed">
-            Comprehensive market index for Golden, Rainbow, and Cosmic mutated Brainrot characters.
+            Master raid sneaking paths and base shield defense upgrades.
           </p>
         </Link>
 

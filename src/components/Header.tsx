@@ -2,8 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Sparkles, Gamepad2, Menu, X, Zap, Calculator, Trophy, Gift, ArrowRight } from 'lucide-react';
-import config from '@/data/game.config.json';
+import { Sparkles, Menu, X, Calculator, Trophy, Gift, ArrowRight, Package, Scale, DollarSign, Layers } from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,29 +22,36 @@ export default function Header() {
             <span className="font-black text-lg tracking-wider text-white flex items-center gap-1.5">
               STEAL A BRAINROT <span className="text-[10px] px-2 py-0.5 bg-pink-950 text-pink-300 rounded-md border border-pink-700/50 font-mono">WIKI</span>
             </span>
-            <p className="text-[10px] text-purple-400 font-medium">Official Meme Guide & Steal Calculator</p>
+            <p className="text-[10px] text-purple-400 font-medium">Official Meme Guide & Tools</p>
           </div>
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center space-x-6 text-sm font-semibold">
-          <Link href="/calculator" className="flex items-center gap-1.5 text-purple-200 hover:text-pink-400 transition-colors">
-            <Calculator className="w-4 h-4 text-pink-400" />
+        <nav className="hidden lg:flex items-center space-x-5 text-xs font-bold">
+          <Link href="/calculator" className="flex items-center gap-1 text-purple-200 hover:text-pink-400 transition-colors">
+            <Calculator className="w-3.5 h-3.5 text-pink-400" />
             <span>Steal Calculator</span>
           </Link>
-          <Link href="/codes" className="flex items-center gap-1.5 text-purple-200 hover:text-pink-400 transition-colors">
-            <Gift className="w-4 h-4 text-cyan-400" />
-            <span>Active Codes</span>
+          <Link href="/summon-simulator" className="flex items-center gap-1 text-purple-200 hover:text-pink-400 transition-colors">
+            <Package className="w-3.5 h-3.5 text-cyan-400" />
+            <span>Summon Sim</span>
           </Link>
-          <Link href="/character-tier-list" className="flex items-center gap-1.5 text-purple-200 hover:text-pink-400 transition-colors">
-            <Trophy className="w-4 h-4 text-amber-400" />
-            <span>Meme Tier List</span>
+          <Link href="/trade-calculator" className="flex items-center gap-1 text-purple-200 hover:text-pink-400 transition-colors">
+            <Scale className="w-3.5 h-3.5 text-amber-400" />
+            <span>Trade Calc</span>
           </Link>
-          <Link href="/steal-guide" className="text-purple-300 hover:text-white transition-colors">
-            Steal Guide
+          <Link href="/codes" className="flex items-center gap-1 text-purple-200 hover:text-pink-400 transition-colors">
+            <Gift className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Codes</span>
           </Link>
-          <Link href="/rebirth-guide" className="text-purple-300 hover:text-white transition-colors">
-            Rebirth Guide
+          <Link href="/character-tier-list" className="text-purple-300 hover:text-white transition-colors">
+            Tier List
+          </Link>
+          <Link href="/fusion-guide" className="text-purple-300 hover:text-white transition-colors">
+            Fusion
+          </Link>
+          <Link href="/boss-schedule" className="text-purple-300 hover:text-white transition-colors">
+            Boss Schedule
           </Link>
         </nav>
 
@@ -65,7 +71,7 @@ export default function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden p-2 rounded-lg bg-purple-950 text-purple-300 border border-purple-800/50"
+          className="lg:hidden p-2 rounded-lg bg-purple-950 text-purple-300 border border-purple-800/50"
           aria-label="Toggle Navigation Menu"
         >
           {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -74,44 +80,31 @@ export default function Header() {
 
       {/* Mobile Nav Dropdown */}
       {isMenuOpen && (
-        <div className="md:hidden bg-[#0c061d] border-b border-purple-900/60 px-4 pt-3 pb-6 space-y-3">
-          <Link
-            href="/calculator"
-            onClick={() => setIsMenuOpen(false)}
-            className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100 text-sm font-semibold"
-          >
+        <div className="lg:hidden bg-[#0c061d] border-b border-purple-900/60 px-4 pt-3 pb-6 space-y-2 text-xs font-semibold">
+          <Link href="/calculator" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100">
             <Calculator className="w-4 h-4 text-pink-400" />
             <span>Steal Calculator</span>
           </Link>
-          <Link
-            href="/codes"
-            onClick={() => setIsMenuOpen(false)}
-            className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100 text-sm font-semibold"
-          >
-            <Gift className="w-4 h-4 text-cyan-400" />
+          <Link href="/summon-simulator" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100">
+            <Package className="w-4 h-4 text-cyan-400" />
+            <span>Summon Simulator</span>
+          </Link>
+          <Link href="/trade-calculator" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100">
+            <Scale className="w-4 h-4 text-amber-400" />
+            <span>Trade Calculator</span>
+          </Link>
+          <Link href="/codes" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100">
+            <Gift className="w-4 h-4 text-emerald-400" />
             <span>Active Codes</span>
           </Link>
-          <Link
-            href="/character-tier-list"
-            onClick={() => setIsMenuOpen(false)}
-            className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100 text-sm font-semibold"
-          >
-            <Trophy className="w-4 h-4 text-amber-400" />
-            <span>Meme Tier List</span>
+          <Link href="/character-tier-list" onClick={() => setIsMenuOpen(false)} className="block px-3 py-1.5 text-purple-300">
+            Brainrot Tier List
           </Link>
-          <Link
-            href="/steal-guide"
-            onClick={() => setIsMenuOpen(false)}
-            className="block px-3 py-2 text-sm text-purple-300 font-medium"
-          >
-            Steal Mechanics Guide
+          <Link href="/fusion-guide" onClick={() => setIsMenuOpen(false)} className="block px-3 py-1.5 text-purple-300">
+            Fusion Crafting Recipes
           </Link>
-          <Link
-            href="/rebirth-guide"
-            onClick={() => setIsMenuOpen(false)}
-            className="block px-3 py-2 text-sm text-purple-300 font-medium"
-          >
-            Rebirth Guide
+          <Link href="/boss-schedule" onClick={() => setIsMenuOpen(false)} className="block px-3 py-1.5 text-purple-300">
+            Boss Schedule
           </Link>
         </div>
       )}
