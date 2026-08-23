@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .gradient-title {
+    background: linear-gradient(135deg, #a855f7 0%, #ec4899 50%, #06b6d4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .glass-card {
+    background: rgba(24, 15, 43, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(236, 72, 153, 0.2);
+  }
+  
+  .glass-card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .glass-card-hover:hover {
+    transform: translateY(-4px);
+    border-color: rgba(236, 72, 153, 0.5);
+    box-shadow: 0 10px 30px -10px rgba(236, 72, 153, 0.3);
+  }
+
+  .neon-glow {
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+  }
+
+  .neon-glow-pink {
+    box-shadow: 0 0 25px rgba(236, 72, 153, 0.4);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090514;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b0764;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7e22ce;
+}
+
+body {
+  background-color: #080312;
+  color: #f3e8ff;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
