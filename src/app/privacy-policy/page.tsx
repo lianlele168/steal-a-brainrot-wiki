@@ -131,7 +131,7 @@ export default function PrivacyPolicyPage() {
             For privacy inquiries, DMCA notices, or correction requests, reach our editorial team directly at:
           </p>
           <div className="inline-block rounded-xl border border-pink-500/30 bg-pink-950/40 p-3 font-mono text-sm font-bold text-pink-300">
-            contact@robloxwikihub.com
+            lianlele168@gmail.com
           </div>
           <p className="text-xs text-purple-400 font-mono">
             Inquiries are acknowledged and resolved within 48 business hours.

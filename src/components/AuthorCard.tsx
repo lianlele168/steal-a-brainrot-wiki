@@ -11,10 +11,9 @@ export default function AuthorCard() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="font-bold text-white text-sm sm:text-base">SigmaRaider_HQ</span>
+              <span className="font-bold text-white text-sm sm:text-base">Roblox Wiki Hub Research Desk</span>
               <span className="inline-flex items-center gap-1 text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full">
-                <ShieldCheck className="w-3 h-3" /> Verified Contributor
-              </span>
+                <ShieldCheck className="w-3 h-3" /> Verified by lianlele168</span>
             </div>
             <p className="text-xs text-purple-300">
               Steal a Brainrot Top 100 Raider & Economy Analyst • 500+ Base Heists Logged
@@ -36,7 +35,7 @@ export default function AuthorCard() {
 
       <p className="text-xs text-purple-400/80 mt-3 pt-3 border-t border-purple-900/40 leading-relaxed">
         <strong>Review Methodology:</strong> Character income multipliers, steal detection radiuses, and Rebirth ROI thresholds are verified through live multi-server heists and official BRAZILIAN SPYDER patch changelogs.
-      </p>
+       Follows <a href="https://robloxwikihub.com/about#methodology" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Editorial Standards</a>. Report corrections to <a href="mailto:lianlele168@gmail.com" className="underline hover:text-white">lianlele168@gmail.com</a>.</p>
     </div>
   );
 }
