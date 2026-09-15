@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import AuthorCard from '@/components/AuthorCard';
 import { Calculator, Gift, Trophy, Shield, Zap, Sparkles, ArrowRight, Package, Scale, DollarSign, Layers, Clock } from 'lucide-react';
 import StealCalculator from '@/components/StealCalculator';
 import SummonSimulator from '@/components/SummonSimulator';
@@ -76,6 +78,38 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* E-E-A-T AUTHOR VERIFICATION */}
+      <AuthorCard />
+
+      {/* VISUAL GAMEPLAY SHOWCASE */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+        <div className="rounded-2xl overflow-hidden border border-purple-900/60 bg-purple-950/40 p-4">
+          <Image
+            src="/images/brainrot-header.webp"
+            alt="Steal a Brainrot Roblox Game Icon"
+            width={512}
+            height={512}
+            className="rounded-xl object-cover w-full h-52 border border-purple-800/40"
+            priority
+          />
+          <p className="text-xs text-purple-300 mt-2.5 text-center font-medium">
+            Figure 1: Official Steal a Brainrot Icon by BRAZILIAN SPYDER.
+          </p>
+        </div>
+        <div className="rounded-2xl overflow-hidden border border-purple-900/60 bg-purple-950/40 p-4">
+          <Image
+            src="/images/brainrot-gameplay.webp"
+            alt="Steal a Brainrot Gameplay Raid Environment"
+            width={768}
+            height={432}
+            className="rounded-xl object-cover w-full h-52 border border-purple-800/40"
+          />
+          <p className="text-xs text-purple-300 mt-2.5 text-center font-medium">
+            Figure 2: Active Base Arena & Raid Corridors with Automated Income Droppers.
+          </p>
+        </div>
+      </div>
 
       {/* Flagship Utility Tool: Steal Calculator */}
       <section id="calculator" className="space-y-4">
