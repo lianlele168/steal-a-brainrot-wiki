@@ -14,27 +14,93 @@
     "onlineNow": "45K+"
   },
   "seo": {
-    "siteTitle": "Steal a Brainrot Wiki — Codes, Meme Tier List, Steal & Summon Calculator 2026",
+    "siteTitle": "Steal a Brainrot Wiki \u2014 Codes, Meme Tier List, Steal & Summon Calculator 2026",
     "siteDescription": "The #1 unofficial Steal a Brainrot Roblox wiki. Active codes, Steal Success Rate Calculator, Pack Summon Simulator, Trade Calculator, Brainrot Meme Tier List, Rebirth multipliers, and trade values.",
     "baseUrl": "https://stealabrainrot.robloxwikihub.com",
-    "primaryKeywords": ["Steal a Brainrot", "Steal a Brainrot wiki", "Steal a Brainrot codes"],
-    "secondaryKeywords": ["Steal a Brainrot calculator", "Steal a Brainrot summon simulator", "Steal a Brainrot trade calculator", "Steal a Brainrot tier list", "Steal a Brainrot meme values", "Steal a Brainrot rebirth guide"]
+    "primaryKeywords": [
+      "Steal a Brainrot",
+      "Steal a Brainrot wiki",
+      "Steal a Brainrot codes"
+    ],
+    "secondaryKeywords": [
+      "Steal a Brainrot calculator",
+      "Steal a Brainrot summon simulator",
+      "Steal a Brainrot trade calculator",
+      "Steal a Brainrot tier list",
+      "Steal a Brainrot meme values",
+      "Steal a Brainrot rebirth guide"
+    ]
   },
   "routes": [
-    { "path": "/", "title": "Steal a Brainrot Wiki", "priority": "1.0" },
-    { "path": "/calculator", "title": "Steal Rate & Income Calculator", "priority": "0.9" },
-    { "path": "/summon-simulator", "title": "Meme Pack Summon Simulator", "priority": "0.9" },
-    { "path": "/trade-calculator", "title": "Trade Fairness Calculator", "priority": "0.9" },
-    { "path": "/codes", "title": "Steal a Brainrot Codes 2026", "priority": "0.9" },
-    { "path": "/character-tier-list", "title": "Brainrot Character Tier List", "priority": "0.9" },
-    { "path": "/raid-profit-calculator", "title": "Base ROI & Offline Storage Calculator", "priority": "0.8" },
-    { "path": "/fusion-guide", "title": "Character Fusion & Crafting Recipes", "priority": "0.8" },
-    { "path": "/boss-schedule", "title": "World Boss Raid Schedule", "priority": "0.8" },
-    { "path": "/steal-guide", "title": "Steal Mechanics & Defense Guide", "priority": "0.8" },
-    { "path": "/rebirth-guide", "title": "Rebirth & Multiplier Guide", "priority": "0.8" },
-    { "path": "/mutation-values", "title": "Mutation & Trade Value Index", "priority": "0.8" },
-    { "path": "/beginner-guide", "title": "Beginner to Sigma Walkthrough", "priority": "0.8" },
-    { "path": "/about", "title": "About Us", "priority": "0.3" },
-    { "path": "/privacy-policy", "title": "Privacy Policy", "priority": "0.3" }
+    {
+      "path": "/",
+      "title": "Steal a Brainrot Wiki",
+      "priority": "1.0"
+    },
+    {
+      "path": "/calculator",
+      "title": "Steal Rate & Income Calculator",
+      "priority": "0.9"
+    },
+    {
+      "path": "/summon-simulator",
+      "title": "Meme Pack Summon Simulator",
+      "priority": "0.9"
+    },
+    {
+      "path": "/trade-calculator",
+      "title": "Trade Fairness Calculator",
+      "priority": "0.9"
+    },
+    {
+      "path": "/codes",
+      "title": "Steal a Brainrot Codes 2026",
+      "priority": "0.9"
+    },
+    {
+      "path": "/character-tier-list",
+      "title": "Brainrot Character Tier List",
+      "priority": "0.9"
+    },
+    {
+      "path": "/raid-profit-calculator",
+      "title": "Base ROI & Offline Storage Calculator",
+      "priority": "0.8"
+    },
+    {
+      "path": "/fusion-guide",
+      "title": "Character Fusion & Crafting Recipes",
+      "priority": "0.8"
+    },
+    {
+      "path": "/boss-schedule",
+      "title": "World Boss Raid Schedule",
+      "priority": "0.8"
+    },
+    {
+      "path": "/steal-guide",
+      "title": "Steal Mechanics & Defense Guide",
+      "priority": "0.8"
+    },
+    {
+      "path": "/rebirth-guide",
+      "title": "Rebirth & Multiplier Guide",
+      "priority": "0.8"
+    },
+    {
+      "path": "/mutation-values",
+      "title": "Mutation & Trade Value Index",
+      "priority": "0.8"
+    },
+    {
+      "path": "/beginner-guide",
+      "title": "Beginner to Sigma Walkthrough",
+      "priority": "0.8"
+    },
+    {
+      "path": "/about",
+      "title": "About Us",
+      "priority": "0.3"
+    }
   ]
 }
