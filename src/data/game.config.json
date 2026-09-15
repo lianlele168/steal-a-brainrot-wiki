@@ -6,7 +6,8 @@
     "developer": "Meme Labs",
     "genre": "Meme Stealing / Tycoon / RNG",
     "currentVersion": "2026 Season 2",
-    "lastUpdated": "2026-08-23"
+    "lastUpdated": "2026-08-23",
+    "robloxUrl": "https://www.roblox.com/games/1894729102/Steal-a-Brainrot"
   },
   "stats": {
     "visits": "850M+",
@@ -96,11 +97,6 @@
       "path": "/beginner-guide",
       "title": "Beginner to Sigma Walkthrough",
       "priority": "0.8"
-    },
-    {
-      "path": "/about",
-      "title": "About Us",
-      "priority": "0.3"
     }
   ]
 }
