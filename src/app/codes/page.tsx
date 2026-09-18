@@ -62,8 +62,8 @@ export default function CodesPage() {
           STEAL A BRAINROT <span className="gradient-title">CODES</span>
         </h1>
         <p className="text-sm text-purple-300 max-w-2xl mx-auto">
-          One Steal a Brainrot code is currently redeemable. Below is that code, every confirmed
-          expired code we could verify, and an explanation of why the supply of new codes stopped.
+          One Steal a Brainrot code is currently redeemable, listed below with the expired codes and
+          the reason new codes stopped arriving.
         </p>
       </div>
 
@@ -100,9 +100,8 @@ export default function CodesPage() {
           </li>
         </ul>
         <p className="text-xs text-amber-300/90 leading-relaxed">
-          Practical takeaway: do not build your progression around codes here. Stealing and
-          rebirthing are the actual routes forward, and mutations are what multiply a brainrot&apos;s
-          income once you own it.
+          Stealing and rebirthing are what move your income, and mutations multiply a brainrot&apos;s
+          earnings once you own it.
         </p>
       </div>
 
