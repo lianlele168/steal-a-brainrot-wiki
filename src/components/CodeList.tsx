@@ -67,8 +67,11 @@ export default function CodeList() {
               <p className="text-xs text-pink-300 font-medium">{item.reward}</p>
             </div>
 
-            <div className="flex items-center justify-between pt-2 border-t border-purple-950 text-[11px] text-purple-400">
-              <span>Added: {item.dateAdded}</span>
+            {item.note && (
+              <p className="text-[11px] text-purple-400/90 leading-relaxed">{item.note}</p>
+            )}
+
+            <div className="flex items-center justify-end pt-2 border-t border-purple-950 text-[11px] text-purple-400">
               {item.status === 'ACTIVE' ? (
                 <button
                   onClick={() => handleCopy(item.code)}
