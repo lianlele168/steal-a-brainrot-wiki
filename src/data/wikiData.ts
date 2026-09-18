@@ -26,14 +26,14 @@ export interface RebirthTier {
 }
 
 export const CODES_DATA: CodeItem[] = [
-  { code: 'SIGMA2026', reward: '$500,000 Brainrot Cash + 2x Luck Potion (30m)', status: 'ACTIVE', dateAdded: '2026-08-20', isNew: true },
-  { code: 'STEALKING', reward: 'Free Mythic CaseOh Character + 50,000 Cash', status: 'ACTIVE', dateAdded: '2026-08-15', isNew: true },
-  { code: 'SKIBIDI800M', reward: '$1,000,000 Cash + Ultra Shield Potion', status: 'ACTIVE', dateAdded: '2026-08-10', isNew: true },
-  { code: 'RIZZLER99', reward: 'Free Legendary Rizzler + 2x Cash Multiplier (1h)', status: 'ACTIVE', dateAdded: '2026-08-01' },
-  { code: 'FANUMTAX', reward: '$250,000 Cash + Speed Boost (15m)', status: 'ACTIVE', dateAdded: '2026-07-25' },
-  { code: 'GRIMACE666', reward: 'Grimace Shake Aura + $100,000 Cash', status: 'ACTIVE', dateAdded: '2026-07-15' },
-  { code: 'MEWING100K', reward: 'Free Epic Mewing Cat + $50,000 Cash', status: 'ACTIVE', dateAdded: '2026-07-01' },
-  { code: 'EXPIRED100', reward: 'Old Release Reward', status: 'EXPIRED', dateAdded: '2026-05-01' }
+  { code: 'SIGMA2026', reward: '$500,000 Brainrot Cash + 2x Luck Potion (30m)', status: 'ACTIVE', dateAdded: '', isNew: true },
+  { code: 'STEALKING', reward: 'Free Mythic CaseOh Character + 50,000 Cash', status: 'ACTIVE', dateAdded: '', isNew: true },
+  { code: 'SKIBIDI800M', reward: '$1,000,000 Cash + Ultra Shield Potion', status: 'ACTIVE', dateAdded: '', isNew: true },
+  { code: 'RIZZLER99', reward: 'Free Legendary Rizzler + 2x Cash Multiplier (1h)', status: 'ACTIVE', dateAdded: '' },
+  { code: 'FANUMTAX', reward: '$250,000 Cash + Speed Boost (15m)', status: 'ACTIVE', dateAdded: '' },
+  { code: 'GRIMACE666', reward: 'Grimace Shake Aura + $100,000 Cash', status: 'ACTIVE', dateAdded: '' },
+  { code: 'MEWING100K', reward: 'Free Epic Mewing Cat + $50,000 Cash', status: 'ACTIVE', dateAdded: '' },
+  { code: 'EXPIRED100', reward: 'Old Release Reward', status: 'EXPIRED', dateAdded: '' }
 ];
 
 export const BRAINROT_CHARACTERS: BrainrotCharacter[] = [

@@ -34,7 +34,7 @@ export default function TermsPage() {
           Terms of Use &amp; Service Guidelines
         </h1>
         <p className="text-xs sm:text-sm text-purple-300">
-          Last updated: {config.game.lastUpdated}. Unofficial strategy companion for {config.game.name}.
+          Unofficial strategy companion for {config.game.name}.
         </p>
       </div>
 
