@@ -3,6 +3,7 @@ import CharacterTierList from '@/components/CharacterTierList';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/character-tier-list' },
   title: "Brainrot Meme Character Tier List — Income & Steal Rankings",
   description: "Complete Brainrot meme character tier list for Steal a Brainrot Roblox. Rankings for God, Secret, Mythic, and Legendary characters with income rates.",
 };

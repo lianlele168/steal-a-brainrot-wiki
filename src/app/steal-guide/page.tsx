@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { Shield, Zap, Target } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/steal-guide' },
   title: "Steal Mechanics & Base Defense Guide",
   description: "Learn how to raid opponent bases, upgrade shields, evade security alarms, and steal high-tier Brainrot characters in Roblox Steal a Brainrot.",
 };

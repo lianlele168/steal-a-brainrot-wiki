@@ -3,6 +3,7 @@ import StealCalculator from '@/components/StealCalculator';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/calculator' },
   title: "Steal Success Rate & Income Calculator",
   description: "Simulate raid steal success odds, speed multipliers, shield penalties, and cash earnings per second in Steal a Brainrot Roblox.",
 };

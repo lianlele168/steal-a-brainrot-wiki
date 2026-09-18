@@ -3,6 +3,7 @@ import ProfitCalculator from '@/components/ProfitCalculator';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/raid-profit-calculator' },
   title: "Base ROI & Offline Cash Vault Calculator",
   description: "Calculate offline cash earnings, storage cap limits, and payback period ROI for base upgrades in Steal a Brainrot Roblox.",
 };

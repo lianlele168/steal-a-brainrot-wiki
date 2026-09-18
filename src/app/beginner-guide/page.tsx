@@ -4,6 +4,7 @@ import Image from 'next/image';
 import AuthorCard from '@/components/AuthorCard';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/beginner-guide' },
   title: "Beginner to Sigma Walkthrough & Starter Strategy - Steal a Brainrot",
   description: "Complete beginner walkthrough for Steal a Brainrot Roblox. Learn how to earn your first million cash, claim starter codes, defend against thieves, and unlock epic meme characters.",
 };

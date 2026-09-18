@@ -4,6 +4,7 @@ import { REBIRTH_DATA } from '@/data/wikiData';
 import { Zap, Trophy } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/rebirth-guide' },
   title: "Rebirth Multipliers & Unlock Guide",
   description: "Complete Rebirth tier guide for Steal a Brainrot Roblox. Rebirth costs, income multiplier scaling up to 100x, and secret meme unlocks.",
 };

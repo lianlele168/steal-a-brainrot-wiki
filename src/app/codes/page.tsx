@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { Gift, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/codes' },
   title: "Steal a Brainrot Codes (August 2026) — Active Free Cash & Potions",
   description: "All active and working codes for Roblox Steal a Brainrot. Claim free cash, luck potions, CaseOh characters, and speed boosts.",
 };

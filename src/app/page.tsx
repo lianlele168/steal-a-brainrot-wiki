@@ -10,6 +10,10 @@ import CodeList from '@/components/CodeList';
 import CharacterTierList from '@/components/CharacterTierList';
 import config from '@/data/game.config.json';
 
+export const metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/' },
+};
+
 export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-16">

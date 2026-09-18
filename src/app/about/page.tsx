@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ShieldCheck, Mail, ExternalLink, ArrowLeft, Gamepad2 } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/about' },
   title: "About Steal a Brainrot Wiki & Network Standards",
   description: "Learn about the Steal a Brainrot fan wiki, our editorial testing process, and the Roblox Wiki Hub network.",
   robots: {

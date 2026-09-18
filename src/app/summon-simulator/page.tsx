@@ -3,6 +3,7 @@ import SummonSimulator from '@/components/SummonSimulator';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/summon-simulator' },
   title: "Meme Pack Summon Simulator & Crate Drop Odds",
   description: "Simulate unboxing Brainrot Meme Crates, God Capsules, and Mythic Pack drops in Roblox Steal a Brainrot with live pull luck odds.",
 };

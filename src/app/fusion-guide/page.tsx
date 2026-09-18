@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { Sparkles, Layers } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/fusion-guide' },
   title: "Character Fusion & Crafting Recipe Guide",
   description: "Complete Fusion crafting table for Roblox Steal a Brainrot. Learn how to combine lower tier memes into Mythic CaseOh and Secret Tung Tung Sah.",
 };

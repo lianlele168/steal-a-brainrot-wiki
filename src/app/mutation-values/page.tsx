@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { Sparkles, Trophy } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/mutation-values' },
   title: "Brainrot Mutation & Trade Value Index 2026",
   description: "Check current trade values for Golden, Rainbow, and Cosmic mutated Brainrot meme characters in Steal a Brainrot Roblox.",
 };

@@ -3,6 +3,7 @@ import TradeCalculator from '@/components/TradeCalculator';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/trade-calculator' },
   title: "Trade Fairness Calculator & Scam Alert Check",
   description: "Check offer fairness and estimated market value before accepting community meme trades in Steal a Brainrot Roblox.",
 };

@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { Clock, Flame, ShieldAlert } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/boss-schedule' },
   title: "World Boss Raid Schedule & Server Events",
   description: "Check server event timers, Titan Skibidi spawn schedules, and Grimace Purple Surge tactics in Steal a Brainrot Roblox.",
 };
