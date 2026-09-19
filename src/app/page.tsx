@@ -188,6 +188,59 @@ export default function Home() {
         <CodeList />
       </section>
 
+      {/* Recent Official Game Updates */}
+      <section className="space-y-4">
+        <div className="flex items-center gap-2">
+          <Zap className="w-5 h-5 text-pink-400" />
+          <h2 className="text-2xl font-extrabold text-white">Recent Game Updates</h2>
+        </div>
+        <p className="text-xs text-purple-400">Last 30 days of Steal a Brainrot updates. Sourced from official update coverage — we link every source.</p>
+
+        <div className="space-y-4">
+          <div className="glass-card p-5 rounded-2xl border border-purple-900/60 space-y-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="px-2 py-0.5 text-[10px] font-bold bg-pink-500/15 text-pink-300 rounded border border-pink-500/30">September 12, 2026</span>
+              <span className="text-sm font-bold text-white">Update 66 — OG Craft Machine</span>
+            </div>
+            <p className="text-xs text-purple-200 leading-relaxed">
+              The weekly Saturday update (scheduled 7:00 PM UTC) reintroduced the OG Craft Machine, adding craftable Secret- and Brainrot God-rarity brainrots, including the new La Craft Machine unit.
+            </p>
+            <a href="https://www.sportskeeda.com/roblox-news/steal-brainrot-og-craft-machine-guide" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[11px] font-semibold text-cyan-400 hover:text-cyan-300">
+              <span>Source: Sportskeeda — Steal a Brainrot OG Craft Machine guide</span>
+              <ArrowRight className="w-3 h-3" />
+            </a>
+          </div>
+
+          <div className="glass-card p-5 rounded-2xl border border-purple-900/60 space-y-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="px-2 py-0.5 text-[10px] font-bold bg-pink-500/15 text-pink-300 rounded border border-pink-500/30">September 14, 2026</span>
+              <span className="text-sm font-bold text-white">New code: BESTBRAINROTEVER (Taco Tuesday drop)</span>
+            </div>
+            <p className="text-xs text-purple-200 leading-relaxed">
+              A new redeem code granting a free La Vacca Saturno Saturnita was added to the tracked codes list; it dropped during the most recent Taco Tuesday event.
+            </p>
+            <a href="https://www.pcgamesn.com/roblox/steal-a-brainrot-codes" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[11px] font-semibold text-cyan-400 hover:text-cyan-300">
+              <span>Source: PCGamesN — Steal a Brainrot codes (updated September 14, 2026)</span>
+              <ArrowRight className="w-3 h-3" />
+            </a>
+          </div>
+
+          <div className="glass-card p-5 rounded-2xl border border-purple-900/60 space-y-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="px-2 py-0.5 text-[10px] font-bold bg-pink-500/15 text-pink-300 rounded border border-pink-500/30">September 2026</span>
+              <span className="text-sm font-bold text-white">Weekly Saturday update cadence continues</span>
+            </div>
+            <p className="text-xs text-purple-200 leading-relaxed">
+              Steal a Brainrot keeps its weekly schedule: major updates land on Saturdays (the September 12 update was slated for 7:00 PM UTC), with Taco Tuesday events mid-week.
+            </p>
+            <a href="https://www.sportskeeda.com/roblox-news/when-is-the-next-steal-a-brainrot-update" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[11px] font-semibold text-cyan-400 hover:text-cyan-300">
+              <span>Source: Sportskeeda — When is the next Steal a Brainrot update?</span>
+              <ArrowRight className="w-3 h-3" />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Meme Character Tier List Section */}
       <section className="space-y-4">
         <div className="flex items-center justify-between">
