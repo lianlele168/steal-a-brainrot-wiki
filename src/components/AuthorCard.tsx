@@ -16,7 +16,7 @@ export default function AuthorCard() {
                 <ShieldCheck className="w-3 h-3" /> Verified by lianlele168</span>
             </div>
             <p className="text-xs text-purple-300">
-              Steal a Brainrot Top 100 Raider & Economy Analyst • 500+ Base Heists Logged
+              Steal a Brainrot Economy Research • Data cross-checked against the Fandom Wiki, Beebom and GameRant
             </p>
           </div>
         </div>
@@ -28,13 +28,13 @@ export default function AuthorCard() {
           </div>
           <div className="flex items-center gap-1 bg-purple-900/50 px-2.5 py-1 rounded-lg border border-purple-800/40">
             <UserCheck className="w-3.5 h-3.5 text-pink-400" />
-            <span>Verified for Patch v2.8 (God Tier)</span>
+            <span>Data verified September 2026</span>
           </div>
         </div>
       </div>
 
       <p className="text-xs text-purple-400/80 mt-3 pt-3 border-t border-purple-900/40 leading-relaxed">
-        <strong>Review Methodology:</strong> Character income multipliers, steal detection radiuses, and Rebirth ROI thresholds are verified through live multi-server heists and official BRAZILIAN SPYDER patch changelogs.
+        <strong>Review Methodology:</strong> Character prices, income rates and the Rebirth 1-17 table are verified against the Steal a Brainrot Fandom Wiki and cross-checked with Beebom, GameRant and Sportskeeda. Conflicting source values are shown side by side instead of averaged, and unverifiable numbers are omitted entirely.
        Follows <a href="https://robloxwikihub.com/about#methodology" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Editorial Standards</a>. Report corrections to <a href="mailto:lianlele168@gmail.com" className="underline hover:text-white">lianlele168@gmail.com</a>.</p>
     </div>
   );

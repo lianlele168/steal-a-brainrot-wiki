@@ -19,10 +19,10 @@ export default function Footer() {
             <span className="font-extrabold text-white text-base tracking-wider">STEAL A BRAINROT WIKI</span>
           </div>
           <p className="text-xs text-purple-400 leading-relaxed max-w-md">
-            The ultimate community wiki for Roblox <strong className="text-pink-300">Steal a Brainrot</strong>. Featuring live steal success rate calculators, verified codes, meme tier lists, rebirth guides, and trade values.
+            The ultimate community wiki for Roblox <strong className="text-pink-300">Steal a Brainrot</strong>. Featuring a verified 52-unit tier list, income calculators, the full Rebirth 1-17 table, and all 39 shop Gear items with real prices.
           </p>
           <p className="text-[11px] text-purple-500">
-            Disclaimer: Steal a Brainrot Wiki is an independent fan-made guide. Not affiliated with or endorsed by Roblox Corporation or Meme Labs.
+            Disclaimer: Steal a Brainrot Wiki is an independent fan-made guide. Not affiliated with or endorsed by Roblox Corporation or BRAZILIAN SPYDER.
           </p>
         </div>
 
@@ -30,7 +30,7 @@ export default function Footer() {
         <div>
           <h4 className="text-xs font-bold uppercase tracking-wider text-pink-400 mb-3">Quick Navigation</h4>
           <ul className="space-y-2 text-xs">
-            <li><Link href="/calculator" className="hover:text-pink-400 transition-colors">Steal Success Calculator</Link></li>
+            <li><Link href="/calculator" className="hover:text-pink-400 transition-colors">Income Calculator</Link></li>
             <li><Link href="/codes" className="hover:text-pink-400 transition-colors">Active Redeem Codes 2026</Link></li>
             <li><Link href="/character-tier-list" className="hover:text-pink-400 transition-colors">Brainrot Meme Tier List</Link></li>
             <li><Link href="/steal-guide" className="hover:text-pink-400 transition-colors">Stealing & Shield Guide</Link></li>

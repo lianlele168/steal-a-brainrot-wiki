@@ -4,8 +4,9 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/summon-simulator' },
-  title: "Meme Pack Summon Simulator & Crate Drop Odds",
-  description: "Simulate unboxing Brainrot Meme Crates, God Capsules, and Mythic Pack drops in Roblox Steal a Brainrot with live pull luck odds.",
+  title: "Red Carpet Roulette — Learn the Verified Brainrot Roster",
+  description:
+    "Roll a random verified Steal a Brainrot unit and learn its real cost and income stats. A roster trainer, not a fake spawn-odds simulator.",
 };
 
 export default function SummonSimulatorPage() {
@@ -13,10 +14,11 @@ export default function SummonSimulatorPage() {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
       <div className="text-center space-y-3">
         <h1 className="text-3xl sm:text-5xl font-black text-white">
-          MEME PACK <span className="gradient-title">SUMMON SIMULATOR</span>
+          RED CARPET <span className="gradient-title">ROULETTE</span>
         </h1>
         <p className="text-sm text-purple-300 max-w-2xl mx-auto">
-          Test your unboxing luck before spending Cash in-game! Unbox God, Secret, and Mythic meme characters with real drop rates.
+          Draw a random verified Brainrot — from the $25 Noobini Pizzanini to the $100M Garama and Madundung —
+          and memorize its real stats before your next raid.
         </p>
       </div>
 

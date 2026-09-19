@@ -4,8 +4,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/character-tier-list' },
-  title: "Brainrot Meme Character Tier List — Income & Steal Rankings",
-  description: "Complete Brainrot meme character tier list for Steal a Brainrot Roblox. Rankings for God, Secret, Mythic, and Legendary characters with income rates.",
+  title: "Brainrot Tier List — 52 Verified Units with Real Income & Prices",
+  description: "Complete verified Brainrot tier list for Steal a Brainrot Roblox: all Common, Rare, Epic, Legendary, Mythic, Brainrot God and Secret units with verified income and red-carpet prices.",
 };
 
 export default function TierListPage() {
@@ -16,7 +16,7 @@ export default function TierListPage() {
           BRAINROT MEME <span className="gradient-title">TIER LIST</span>
         </h1>
         <p className="text-sm text-purple-300 max-w-2xl mx-auto">
-          Explore all meme entities in Steal a Brainrot ranked by cash printing speed, raid steal difficulty, and market valuation.
+          Explore 52 cross-verified Brainrots — every unit shows its real income per second and red-carpet cost. No invented characters, no made-up multipliers.
         </p>
       </div>
 

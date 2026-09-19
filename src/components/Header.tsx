@@ -22,7 +22,7 @@ export default function Header() {
             <span className="font-black text-lg tracking-wider text-white flex items-center gap-1.5">
               STEAL A BRAINROT <span className="text-[10px] px-2 py-0.5 bg-pink-950 text-pink-300 rounded-md border border-pink-700/50 font-mono">WIKI</span>
             </span>
-            <p className="text-[10px] text-purple-400 font-medium">Official Meme Guide & Tools</p>
+            <p className="text-[10px] text-purple-400 font-medium">Verified Data Guide & Tools</p>
           </div>
         </Link>
 
@@ -30,15 +30,15 @@ export default function Header() {
         <nav className="hidden lg:flex items-center space-x-5 text-xs font-bold">
           <Link href="/calculator" className="flex items-center gap-1 text-purple-200 hover:text-pink-400 transition-colors">
             <Calculator className="w-3.5 h-3.5 text-pink-400" />
-            <span>Steal Calculator</span>
+            <span>Income Calculator</span>
           </Link>
           <Link href="/summon-simulator" className="flex items-center gap-1 text-purple-200 hover:text-pink-400 transition-colors">
             <Package className="w-3.5 h-3.5 text-cyan-400" />
-            <span>Summon Sim</span>
+            <span>Roulette</span>
           </Link>
           <Link href="/trade-calculator" className="flex items-center gap-1 text-purple-200 hover:text-pink-400 transition-colors">
             <Scale className="w-3.5 h-3.5 text-amber-400" />
-            <span>Trade Calc</span>
+            <span>Value Compare</span>
           </Link>
           <Link href="/codes" className="flex items-center gap-1 text-purple-200 hover:text-pink-400 transition-colors">
             <Gift className="w-3.5 h-3.5 text-emerald-400" />
@@ -48,10 +48,10 @@ export default function Header() {
             Tier List
           </Link>
           <Link href="/fusion-guide" className="text-purple-300 hover:text-white transition-colors">
-            Fusion
+            Gear
           </Link>
           <Link href="/boss-schedule" className="text-purple-300 hover:text-white transition-colors">
-            Boss Schedule
+            Events
           </Link>
         </nav>
 
@@ -83,15 +83,15 @@ export default function Header() {
         <div className="lg:hidden bg-[#0c061d] border-b border-purple-900/60 px-4 pt-3 pb-6 space-y-2 text-xs font-semibold">
           <Link href="/calculator" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100">
             <Calculator className="w-4 h-4 text-pink-400" />
-            <span>Steal Calculator</span>
+            <span>Income Calculator</span>
           </Link>
           <Link href="/summon-simulator" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100">
             <Package className="w-4 h-4 text-cyan-400" />
-            <span>Summon Simulator</span>
+            <span>Red Carpet Roulette</span>
           </Link>
           <Link href="/trade-calculator" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100">
             <Scale className="w-4 h-4 text-amber-400" />
-            <span>Trade Calculator</span>
+            <span>Value Comparison</span>
           </Link>
           <Link href="/codes" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-900/40 text-purple-100">
             <Gift className="w-4 h-4 text-emerald-400" />
@@ -101,10 +101,10 @@ export default function Header() {
             Brainrot Tier List
           </Link>
           <Link href="/fusion-guide" onClick={() => setIsMenuOpen(false)} className="block px-3 py-1.5 text-purple-300">
-            Fusion Crafting Recipes
+            Gear & Items Guide
           </Link>
           <Link href="/boss-schedule" onClick={() => setIsMenuOpen(false)} className="block px-3 py-1.5 text-purple-300">
-            Boss Schedule
+            Server Events Guide
           </Link>
         </div>
       )}

@@ -26,7 +26,7 @@ export default function Home() {
         <div className="relative z-10 max-w-3xl space-y-6">
           <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-pink-950/80 border border-pink-700/60 text-pink-300 text-xs font-bold">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Updated for {config.game.currentVersion} • Season 2 Suite</span>
+            <span>Data verified September 2026 • Fandom Wiki + Beebom cross-checked</span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight leading-none">
@@ -35,8 +35,9 @@ export default function Home() {
           </h1>
 
           <p className="text-sm sm:text-base text-purple-200 leading-relaxed font-medium">
-            The #1 authoritative database for Roblox <strong className="text-pink-400 font-bold">Steal a Brainrot</strong>. 
-            Simulate your raid steal odds, unbox meme crates in real-time, verify community trade fairness, and claim active 2026 codes.
+            The #1 authoritative database for Roblox <strong className="text-pink-400 font-bold">Steal a Brainrot</strong>.
+            Calculate verified income rates, roll the Red Carpet roster, compare unit cost efficiency, and claim the active code —
+            52 verified Brainrots, all 17 Rebirth levels and 39 shop Gear items.
           </p>
 
           {/* Quick Metrics */}
@@ -135,10 +136,10 @@ export default function Home() {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-extrabold text-white flex items-center gap-2">
-              <span>Meme Pack Summon Simulator</span>
-              <span className="text-xs px-2.5 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-800">Unboxing Sim</span>
+              <span>Red Carpet Roulette</span>
+              <span className="text-xs px-2.5 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-800">Roster Trainer</span>
             </h2>
-            <p className="text-xs text-purple-400">Simulate opening Brainrot Crate drops and test God entity luck before buying in-game.</p>
+            <p className="text-xs text-purple-400">Draw random verified Brainrots and memorize their real cost and income stats.</p>
           </div>
           <Link href="/summon-simulator" className="text-xs font-bold text-pink-400 hover:underline flex items-center gap-1">
             <span>Full Summon Room</span>
@@ -154,10 +155,10 @@ export default function Home() {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-extrabold text-white flex items-center gap-2">
-              <span>Trade Fairness Checker</span>
-              <span className="text-xs px-2.5 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800">Anti-Scam</span>
+              <span>Value Comparison Calculator</span>
+              <span className="text-xs px-2.5 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800">Cost Efficiency</span>
             </h2>
-            <p className="text-xs text-purple-400">Verify community trade values and ensure you get a fair deal.</p>
+            <p className="text-xs text-purple-400">Compare two Brainrots by purchase cost and income payback time.</p>
           </div>
           <Link href="/trade-calculator" className="text-xs font-bold text-pink-400 hover:underline flex items-center gap-1">
             <span>Full Trade Checker</span>
@@ -176,7 +177,7 @@ export default function Home() {
               <span>Active Redeem Codes (2026)</span>
               <span className="text-xs px-2.5 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-800">Verified</span>
             </h2>
-            <p className="text-xs text-purple-400">Copy active codes to get free Cash, Luck Potions, and CaseOh characters.</p>
+            <p className="text-xs text-purple-400">Copy the one active code before it hits its redemption cap.</p>
           </div>
           <Link href="/codes" className="text-xs font-bold text-pink-400 hover:underline flex items-center gap-1">
             <span>View All Codes</span>
@@ -192,10 +193,10 @@ export default function Home() {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-extrabold text-white flex items-center gap-2">
-              <span>Brainrot Meme Character Tier List</span>
-              <span className="text-xs px-2.5 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800">Season 2 Meta</span>
+              <span>Brainrot Tier List</span>
+              <span className="text-xs px-2.5 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800">52 Verified Units</span>
             </h2>
-            <p className="text-xs text-purple-400">Ranked by income per second, steal difficulty, and trade valuation.</p>
+            <p className="text-xs text-purple-400">Every unit with its verified red-carpet cost and income per second.</p>
           </div>
           <Link href="/character-tier-list" className="text-xs font-bold text-pink-400 hover:underline flex items-center gap-1">
             <span>Full Character Database</span>
@@ -223,9 +224,9 @@ export default function Home() {
           <div className="w-10 h-10 rounded-xl bg-purple-950 flex items-center justify-center text-pink-400 group-hover:scale-110 transition-transform">
             <Layers className="w-5 h-5" />
           </div>
-          <h3 className="text-base font-bold text-white group-hover:text-pink-400 transition-colors">Fusion Recipes</h3>
+          <h3 className="text-base font-bold text-white group-hover:text-pink-400 transition-colors">Gear & Items</h3>
           <p className="text-xs text-purple-300 leading-relaxed">
-            Combine duplicate memes to craft Mythic CaseOh and Secret entities.
+            All 39 shop Gear items with verified prices and Rebirth unlock levels.
           </p>
         </Link>
 
@@ -233,9 +234,9 @@ export default function Home() {
           <div className="w-10 h-10 rounded-xl bg-purple-950 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition-transform">
             <Clock className="w-5 h-5" />
           </div>
-          <h3 className="text-base font-bold text-white group-hover:text-cyan-400 transition-colors">Boss Raids Schedule</h3>
+          <h3 className="text-base font-bold text-white group-hover:text-cyan-400 transition-colors">Server Events</h3>
           <p className="text-xs text-purple-300 leading-relaxed">
-            Timers and battle tactics for Titan Skibidi and Grimace Surge events.
+            Red Carpet spawns, event wheel Gear odds, and Rebirth reset rules.
           </p>
         </Link>
 

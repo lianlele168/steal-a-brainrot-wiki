@@ -3,10 +3,9 @@
     "name": "Steal a Brainrot",
     "slug": "steal-a-brainrot",
     "robloxId": "1894729102",
-    "developer": "Meme Labs",
-    "genre": "Meme Stealing / Tycoon / RNG",
-    "currentVersion": "2026 Season 2",
-
+    "developer": "BRAZILIAN SPYDER",
+    "genre": "Stealing / Tycoon",
+    "currentVersion": "Data verified September 2026",
     "robloxUrl": "https://www.roblox.com/games/1894729102/Steal-a-Brainrot"
   },
   "stats": {
@@ -15,7 +14,7 @@
     "onlineNow": "45K+"
   },
   "seo": {
-    "siteTitle": "Steal a Brainrot Wiki \u2014 Codes, Meme Tier List, Steal & Summon Calculator 2026",
+    "siteTitle": "Steal a Brainrot Wiki — Verified Tier List, Income Calculator, Codes & Rebirth Table 2026",
     "siteDescription": "The #1 unofficial Steal a Brainrot Roblox wiki. Active codes, Steal Success Rate Calculator, Pack Summon Simulator, Trade Calculator, Brainrot Meme Tier List, Rebirth multipliers, and trade values.",
     "baseUrl": "https://stealabrainrot.robloxwikihub.com",
     "primaryKeywords": [
@@ -25,11 +24,11 @@
     ],
     "secondaryKeywords": [
       "Steal a Brainrot calculator",
-      "Steal a Brainrot summon simulator",
-      "Steal a Brainrot trade calculator",
+      "Steal a Brainrot income calculator",
       "Steal a Brainrot tier list",
-      "Steal a Brainrot meme values",
-      "Steal a Brainrot rebirth guide"
+      "Steal a Brainrot rebirth guide",
+      "Steal a Brainrot gear list",
+      "Steal a Brainrot brainrot values"
     ]
   },
   "routes": [
@@ -40,17 +39,17 @@
     },
     {
       "path": "/calculator",
-      "title": "Steal Rate & Income Calculator",
+      "title": "Brainrot Income Calculator",
       "priority": "0.9"
     },
     {
       "path": "/summon-simulator",
-      "title": "Meme Pack Summon Simulator",
+      "title": "Red Carpet Roulette",
       "priority": "0.9"
     },
     {
       "path": "/trade-calculator",
-      "title": "Trade Fairness Calculator",
+      "title": "Value Comparison Calculator",
       "priority": "0.9"
     },
     {
@@ -60,7 +59,7 @@
     },
     {
       "path": "/character-tier-list",
-      "title": "Brainrot Character Tier List",
+      "title": "Brainrot Tier List (Verified)",
       "priority": "0.9"
     },
     {
@@ -70,12 +69,12 @@
     },
     {
       "path": "/fusion-guide",
-      "title": "Character Fusion & Crafting Recipes",
+      "title": "Gear & Items Guide",
       "priority": "0.8"
     },
     {
       "path": "/boss-schedule",
-      "title": "World Boss Raid Schedule",
+      "title": "Server Events Guide",
       "priority": "0.8"
     },
     {
@@ -90,7 +89,7 @@
     },
     {
       "path": "/mutation-values",
-      "title": "Mutation & Trade Value Index",
+      "title": "Mutations Fact Check",
       "priority": "0.8"
     },
     {
