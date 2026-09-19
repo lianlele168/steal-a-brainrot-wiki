@@ -64,6 +64,10 @@ export default function Footer() {
           <Link href="/terms" className="hover:text-purple-300">Terms of Use</Link>
         </div>
       </div>
+
+      <div className="max-w-7xl mx-auto mt-4 text-[11px] text-purple-600 text-center">
+        <p>Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail</p>
+      </div>
     </footer>
   );
 }
