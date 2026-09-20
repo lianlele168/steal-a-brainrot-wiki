@@ -23,7 +23,7 @@ export default function RebirthGuidePage() {
           slot per level (Rebirth 1 gives no slot).
         </p>
         <p className="text-[11px] text-purple-500">
-          Source: Steal a Brainrot Fandom Wiki Rebirth page, cross-checked with Eldorado.gg — last verified {DATA_VERIFIED_DATE}.
+          Source: Steal a Brainrot Fandom Wiki Rebirth page, cross-checked with Eldorado.gg — last checked {DATA_VERIFIED_DATE}.
         </p>
       </div>
 
@@ -79,7 +79,7 @@ export default function RebirthGuidePage() {
       <div className="glass-card p-6 rounded-2xl border border-purple-900/60 space-y-3">
         <h2 className="text-lg font-bold text-white flex items-center gap-2">
           <Trophy className="w-5 h-5 text-amber-400" />
-          <span>Verified Rebirth Trivia</span>
+          <span>Rebirth Trivia</span>
         </h2>
         <ul className="list-disc list-inside text-xs text-purple-300 space-y-2 leading-relaxed">
           {REBIRTH_TRIVIA.map((t) => (

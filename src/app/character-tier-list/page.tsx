@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/character-tier-list' },
-  title: "Brainrot Tier List — 52 Verified Units with Real Income & Prices",
+  title: "Brainrot Tier List — 52 Units with Real Income & Prices",
   description: "Complete verified Brainrot tier list for Steal a Brainrot Roblox: all Common, Rare, Epic, Legendary, Mythic, Brainrot God and Secret units with verified income and red-carpet prices.",
 };
 

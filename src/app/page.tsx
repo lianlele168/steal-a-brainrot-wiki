@@ -26,7 +26,7 @@ export default function Home() {
         <div className="relative z-10 max-w-3xl space-y-6">
           <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-pink-950/80 border border-pink-700/60 text-pink-300 text-xs font-bold">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Data verified September 2026 • Fandom Wiki + Beebom cross-checked</span>
+            <span>Data last checked September 2026 • Fandom Wiki + Beebom cross-checked</span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight leading-none">
@@ -175,7 +175,7 @@ export default function Home() {
           <div>
             <h2 className="text-2xl font-extrabold text-white flex items-center gap-2">
               <span>Active Redeem Codes (2026)</span>
-              <span className="text-xs px-2.5 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-800">Verified</span>
+              <span className="text-xs px-2.5 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-800">Sourced</span>
             </h2>
             <p className="text-xs text-purple-400">Copy the one active code before it hits its redemption cap.</p>
           </div>
@@ -247,7 +247,7 @@ export default function Home() {
           <div>
             <h2 className="text-2xl font-extrabold text-white flex items-center gap-2">
               <span>Brainrot Tier List</span>
-              <span className="text-xs px-2.5 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800">52 Verified Units</span>
+              <span className="text-xs px-2.5 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800">52 Units</span>
             </h2>
             <p className="text-xs text-purple-400">Every unit with its verified red-carpet cost and income per second.</p>
           </div>

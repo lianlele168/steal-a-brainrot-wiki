@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/calculator' },
-  title: "Brainrot Income Calculator — Verified Base Rates & Rebirth Multipliers",
+  title: "Brainrot Income Calculator — Base Rates & Rebirth Multipliers",
   description:
     "Calculate real Steal a Brainrot income: verified base cash-per-second for 52 Brainrots, Rebirth multipliers x0.5 to x17, with hourly and daily projections.",
 };

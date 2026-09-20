@@ -126,7 +126,7 @@ export default function SummonSimulator() {
         <AlertCircle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
         <span>
           This is a learning tool, not an odds simulator. The developer has never published Red Carpet spawn
-          rates, so every one of the {BRAINROT_CHARACTERS.length} verified units (last verified {DATA_VERIFIED_DATE})
+          rates, so every one of the {BRAINROT_CHARACTERS.length} verified units (last checked {DATA_VERIFIED_DATE})
           is drawn with equal probability. Sites claiming exact Secret spawn percentages are guessing.
         </span>
       </div>

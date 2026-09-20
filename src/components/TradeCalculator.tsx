@@ -78,7 +78,7 @@ export default function TradeCalculator() {
 
           <div className="pt-2 border-t border-purple-900/60 text-xs space-y-1 text-purple-300">
             <div className="flex justify-between"><span>Red Carpet Cost:</span><strong className="text-white">${unitA.cost.toLocaleString()}</strong></div>
-            <div className="flex justify-between"><span>Verified Income:</span><strong className="text-pink-400">${unitA.incomePerSec.toLocaleString()}/s</strong></div>
+            <div className="flex justify-between"><span>Income:</span><strong className="text-pink-400">${unitA.incomePerSec.toLocaleString()}/s</strong></div>
             <div className="flex justify-between"><span>Cost Payback:</span><strong className="text-cyan-400">{paybackA.toLocaleString(undefined, { maximumFractionDigits: 0 })}s of income</strong></div>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function TradeCalculator() {
 
           <div className="pt-2 border-t border-purple-900/60 text-xs space-y-1 text-purple-300">
             <div className="flex justify-between"><span>Red Carpet Cost:</span><strong className="text-white">${unitB.cost.toLocaleString()}</strong></div>
-            <div className="flex justify-between"><span>Verified Income:</span><strong className="text-cyan-400">${unitB.incomePerSec.toLocaleString()}/s</strong></div>
+            <div className="flex justify-between"><span>Income:</span><strong className="text-cyan-400">${unitB.incomePerSec.toLocaleString()}/s</strong></div>
             <div className="flex justify-between"><span>Cost Payback:</span><strong className="text-amber-300">{paybackB.toLocaleString(undefined, { maximumFractionDigits: 0 })}s of income</strong></div>
           </div>
         </div>

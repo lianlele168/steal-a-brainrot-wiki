@@ -22,7 +22,7 @@ export default function Header() {
             <span className="font-black text-lg tracking-wider text-white flex items-center gap-1.5">
               STEAL A BRAINROT <span className="text-[10px] px-2 py-0.5 bg-pink-950 text-pink-300 rounded-md border border-pink-700/50 font-mono">WIKI</span>
             </span>
-            <p className="text-[10px] text-purple-400 font-medium">Verified Data Guide & Tools</p>
+            <p className="text-[10px] text-purple-400 font-medium">Sourced Data Guide & Tools</p>
           </div>
         </Link>
 

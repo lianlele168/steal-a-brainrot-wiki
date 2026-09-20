@@ -55,7 +55,7 @@ export default function CodesPage() {
       <div className="text-center space-y-3">
         <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800 text-xs font-bold">
           <Gift className="w-3.5 h-3.5" />
-          <span>1 Verified Active Code</span>
+          <span>1 Active Code</span>
         </div>
 
         <h1 className="text-3xl sm:text-5xl font-black text-white">

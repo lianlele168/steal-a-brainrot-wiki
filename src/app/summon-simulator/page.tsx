@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/summon-simulator' },
-  title: "Red Carpet Roulette — Learn the Verified Brainrot Roster",
+  title: "Red Carpet Roulette — Learn the Brainrot Roster",
   description:
     "Roll a random verified Steal a Brainrot unit and learn its real cost and income stats. A roster trainer, not a fake spawn-odds simulator.",
 };

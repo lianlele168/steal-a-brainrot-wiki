@@ -55,7 +55,7 @@ export default function BeginnerGuidePage() {
         </h1>
         <p className="text-sm text-purple-300 max-w-2xl mx-auto">
           A step-by-step roadmap from an empty wallet to your first Rebirth — every number on this page is
-          cross-checked against the Fandom Wiki and Beebom (last verified {DATA_VERIFIED_DATE}).
+          cross-checked against the Fandom Wiki and Beebom (last checked {DATA_VERIFIED_DATE}).
         </p>
       </div>
 
@@ -152,7 +152,7 @@ export default function BeginnerGuidePage() {
         <section className="bg-purple-950/50 p-6 rounded-2xl border border-purple-900/60 space-y-4">
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
             <span className="w-7 h-7 rounded-lg bg-purple-600 text-white flex items-center justify-center text-xs">4</span>
-            The Rebirth Flywheel: Verified Numbers Only
+            The Rebirth Flywheel: Numbers Only
           </h2>
           <p>
             Rebirth 1 costs $500K (some players report a $1M threshold) and requires Trippi Troppi plus Gangster

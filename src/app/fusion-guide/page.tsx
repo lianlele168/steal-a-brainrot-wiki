@@ -24,7 +24,7 @@ export default function GearGuidePage() {
           effects, from the $500 Slap up to the $1.5B Giant Potion.
         </p>
         <p className="text-[11px] text-purple-500">
-          Source: Steal a Brainrot Fandom Wiki Gears page — last verified {DATA_VERIFIED_DATE}.
+          Source: Steal a Brainrot Fandom Wiki Gears page — last checked {DATA_VERIFIED_DATE}.
         </p>
       </div>
 

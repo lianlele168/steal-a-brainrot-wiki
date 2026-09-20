@@ -5,7 +5,7 @@ import { DATA_VERIFIED_DATE } from '@/data/wikiData';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/mutation-values' },
-  title: "Mutations & Variants — What Is Actually Verified",
+  title: "Mutations & Variants — What Is Actually Known",
   description:
     "What is verified about Steal a Brainrot mutations (Gold, Rainbow and more): confirmed variant data, and which multiplier values the community still has no source for.",
 };
@@ -42,13 +42,13 @@ export default function MutationValuesPage() {
           Most wiki sites quote made-up mutation multipliers like &quot;Rainbow 75x&quot;. Here is the honest version: what is
           actually verified, and what is not.
         </p>
-        <p className="text-[11px] text-purple-500">Last verified: {DATA_VERIFIED_DATE}</p>
+        <p className="text-[11px] text-purple-500">Last checked: {DATA_VERIFIED_DATE}</p>
       </div>
 
       <div className="glass-card p-6 rounded-2xl border border-emerald-900/60 space-y-4">
         <h2 className="text-lg font-bold text-white flex items-center gap-2">
           <ShieldCheck className="w-5 h-5 text-emerald-400" />
-          <span>Verified facts</span>
+          <span>facts</span>
         </h2>
         {VERIFIED.map((v) => (
           <div key={v.name} className="p-3 rounded-xl bg-purple-950/50 border border-purple-800/60 space-y-1">

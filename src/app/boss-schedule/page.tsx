@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://stealabrainrot.robloxwikihub.com/boss-schedule' },
   title: "Server Events Guide — Red Carpet Spawns & Event Wheel",
   description:
-    "Verified server events in Steal a Brainrot Roblox: how the Red Carpet spawn system works, what Rebirth does mid-heist, and event wheel Gear drop odds (0.1%-0.5%).",
+    "Server events in Steal a Brainrot Roblox: how the Red Carpet spawn system works, what Rebirth does mid-heist, and event wheel Gear drop odds (0.1%-0.5%).",
 };
 
 export default function ServerEventsPage() {
@@ -42,7 +42,7 @@ export default function ServerEventsPage() {
           boss schedules.
         </p>
         <p className="text-[11px] text-purple-500 flex items-center justify-center gap-1">
-          <Clock className="w-3 h-3" /> Last verified: September 19, 2026
+          <Clock className="w-3 h-3" /> Last checked: September 19, 2026
         </p>
       </div>
 

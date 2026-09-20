@@ -41,7 +41,7 @@ export default function StealCalculator() {
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
             <span>Brainrot Income Calculator</span>
-            <span className="text-[10px] px-2 py-0.5 rounded bg-pink-900/60 text-pink-300 font-mono">Verified Data</span>
+            <span className="text-[10px] px-2 py-0.5 rounded bg-pink-900/60 text-pink-300 font-mono">Sourced Data</span>
           </h2>
           <p className="text-xs text-purple-300">Calculate real income per second using verified base rates and the Rebirth multiplier.</p>
         </div>
@@ -145,7 +145,7 @@ export default function StealCalculator() {
 
             {/* Total Cash / Sec */}
             <div className="p-4 rounded-xl bg-gradient-to-r from-purple-900/60 to-pink-900/60 border border-pink-500/40 text-center">
-              <span className="text-xs text-purple-200 font-bold uppercase tracking-wider block">Total Verified Income</span>
+              <span className="text-xs text-purple-200 font-bold uppercase tracking-wider block">Total Income</span>
               <span className="text-3xl font-black text-white mt-1 block tracking-tight">
                 {fmt(totalIncomePerSec)} <span className="text-xs font-normal text-pink-300">/ sec</span>
               </span>
@@ -168,7 +168,7 @@ export default function StealCalculator() {
             <AlertCircle className="w-4 h-4 text-pink-400 shrink-0 mt-0.5" />
             <span>
               Base income from the Beebom/Fandom cross-checked table and Rebirth multipliers from the Fandom Rebirth
-              table (last verified {DATA_VERIFIED_DATE}). Mutation multipliers (Gold, Rainbow, etc.) are not included
+              table (last checked {DATA_VERIFIED_DATE}). Mutation multipliers (Gold, Rainbow, etc.) are not included
               because no verified values have been published.
             </span>
           </div>

@@ -68,7 +68,7 @@ export default function CharacterTierList() {
 
       <p className="text-[11px] text-purple-400">
         Showing {filteredCharacters.length} of {BRAINROT_CHARACTERS.length} verified units. Prices and income are
-        cross-checked against the Fandom Wiki and Beebom (last verified {DATA_VERIFIED_DATE}). Spawn rates and
+        cross-checked against the Fandom Wiki and Beebom (last checked {DATA_VERIFIED_DATE}). Spawn rates and
         mutation multipliers are not published by the developer and are therefore not listed.
       </p>
 
