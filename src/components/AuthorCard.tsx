@@ -28,7 +28,7 @@ export default function AuthorCard() {
           </div>
           <div className="flex items-center gap-1 bg-purple-900/50 px-2.5 py-1 rounded-lg border border-purple-800/40">
             <UserCheck className="w-3.5 h-3.5 text-pink-400" />
-            <span>Data verified September 2026</span>
+            <span>Sources last checked September 2026</span>
           </div>
         </div>
       </div>
